@@ -1,0 +1,11 @@
+# landscape 主题的本地覆盖配置
+#
+# 优先级高于 themes/landscape/_config.yml（Hexo 会自动合并 _config.[主题名].yml），
+# 所以主题升级时不会冲掉这里的设置。可配置项见 themes/landscape/_config.yml。
+#
+# 只写你想改的项即可，没写的沿用主题默认值。
+
+# 顶部 RSS 图标：留空则不显示。
+# 当前没有安装 feed 生成器，留空可避免图标指向 404 的 /atom.xml。
+# 以后想开 RSS：执行 npm i hexo-generator-feed，再把下面改成 /atom.xml
+rss:
